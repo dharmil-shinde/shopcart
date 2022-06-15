@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js" defer></script>
+    <script src="cart.js" defer></script>
+    
+</head>
+<body>
+    <div class="navbar" id="navbar">
+        <a href="/"class="logo">ShopCart</a>
+        <a href="/cart.html">
+        <div class="shopping-cart">
+            <div id="quantity" class="quantity">0</div>
+            <i class="bi bi-cart3"></i>
+        </div>
+        </a>
+    </div>
+    <br><br> 
+
+    <div class="cart-header">
+        <div>Total cart value: <span id="cart-value">0</span></div>
+        
+        <div class="cart-total-no" id="cart-no">No. Of products: 0</div>
+    </div>
+
+    <p class="clear-cart" onclick="removeall()">clear all cart item</p>
+    <br>
+    <div class="cart-container" id="cart-container">
+        
+    </div>
+</body>
+</html>
